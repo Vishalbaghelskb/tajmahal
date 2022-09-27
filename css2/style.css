@@ -65,7 +65,7 @@ img{border:0; vertical-align:bottom}
 html{height:100%; overflow:auto; overflow-y:scroll}
 body{height:100%; font:100%/1.5 'Montserrat',sans-serif; background:#FDFDFD; color:#333}
 
-h1, h2, h3, h4, h5, h6,{margin:0 0 0em; font-family:'Montserrat',sans-serif}
+h1, h2, h3, h4, h5, h6,{margin: 0em; font-family:'Montserrat',sans-serif}
 ul, ol{font-size:1em;  font-family:'Open Sans',Arial,sans-serif}
 ul{margin:0 0 0em 0px; list-style:none}
 h1{font-size:1.6em}
@@ -119,7 +119,10 @@ a:hover, a:focus, a:active{visibility:visible; text-decoration:none}
 
 .affix{position:fixed;  top:0;  width:100%}
 .navbar{border-radius:0; margin-bottom:0; padding:0; min-height:40px}
-.navbar-bg-color{background-color:#AE1819;  z-index:111111; border:0}
+.navbar-bg-color{ background: #99EDA0;
+    background: -moz-linear-gradient(left, #99EDA0 0%, #24E3FF 50%, #605bfd 100%);
+    background: -webkit-linear-gradient(left, #99EDA0 0%, #24E3FF 50%, #605bfd 100%);
+    background: linear-gradient(to right, #99EDA0 0%, #24E3FF 50%, #605bfd 100%);  z-index:111111; border:0}
 ul.nav.navbar-nav.navbar-right{margin-top:15px}
 .navbar-brand{padding:0; height:auto; margin:9px 0px}
 .navbar-nav>li>a{padding:12px 11px; color:#fff; font-size:13px; font-weight:normal; text-transform:uppercase}
