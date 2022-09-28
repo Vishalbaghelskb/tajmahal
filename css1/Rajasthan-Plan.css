@@ -5208,7 +5208,7 @@ h1, .h1 {font-size : 22px !important;}
     z-index: 1000;
 }
 .navbar{ min-height: 60px; position: relative;}
-.main-logo{width: 90px; position: absolute; z-index: 999; padding: 3px 10px; margin-left: 3%;}
+.main-logo{width: 90px !important; position: absolute; z-index: 999; padding: 3px 10px; margin-left: 3%;}
 }
 @media only screen and (max-width :480px) {
 .col_md_4, .col_md_4 .cntct-dtl-col, .time-box {
@@ -7431,8 +7431,8 @@ display : table-cell !important ;
 .clear{ clear:left;}
 .main-logo{  float: left;
     height:130px;
-    margin-top:5px;
-    width: 120px;}
+	padding-top: 20px;
+    width: 100px;}
 .tagline{  float: left;
     height: 46px;
     margin-left: 34px;
@@ -7753,11 +7753,11 @@ a.new-menu-link{background-position:91% center;}
     margin-top: 3px;
     width: 80%;
 }
-.main-logo {
+/* .main-logo {
     float: left;
     margin-top: 1px;
     width:100%;
-}
+} */
 .m1 ul{margin:-9px 0 0px !important;}
 .callback {
     position: absolute;
