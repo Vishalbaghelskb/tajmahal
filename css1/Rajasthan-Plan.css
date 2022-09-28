@@ -7431,8 +7431,8 @@ display : table-cell !important ;
 .clear{ clear:left;}
 .main-logo{  float: left;
     height:130px;
-	padding-top: 20px;
-    width: 100px;}
+	padding-top: 10px;
+    width: 120px;}
 .tagline{  float: left;
     height: 46px;
     margin-left: 34px;
