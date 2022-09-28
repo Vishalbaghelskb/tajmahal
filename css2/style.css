@@ -968,6 +968,8 @@ body{overflow-x: hidden;}
 }
 
 @media screen and (max-width:767px){.slide-title{margin-top:0; font-size:2.5em}
+.navbar{ min-height: 60px; position: relative;}
+.main-logo{width: 90px; position: absolute; z-index: 999; padding: 5px 10px; margin-left: 3%;}
 #main-slide .slider-content, #main-slide .slider-content .contentJusti, .slider-text{text-align:left}
 #main-slide .slider-content ul, .slide-title, #main-slide .curveSlider .curveList{width:100%}
 #main-slide .slider-content ul.pull-right li{padding-right:0; text-align:left; background-position:left 5px; padding-left:1.7em}
