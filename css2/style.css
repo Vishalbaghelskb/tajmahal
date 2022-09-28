@@ -122,7 +122,7 @@ a:hover, a:focus, a:active{visibility:visible; text-decoration:none}
 .navbar-bg-color{background: #99EDA0;
     background: -moz-linear-gradient(left, #99EDA0 0%, #24E3FF 50%, #605bfd 100%);
     background: -webkit-linear-gradient(left, #99EDA0 0%, #24E3FF 50%, #605bfd 100%);
-    background: linear-gradient(to right, #99EDA0 0%, #24E3FF 50%, #605bfd 100%);  z-index:111111; border:0}
+    background: linear-gradient(to right, #99EDA0 0%, #24E3FF 50%, #605bfd 100%);  z-index:1; border:0}
 ul.nav.navbar-nav.navbar-right{margin-top:15px}
 .navbar-brand{padding:0; height:auto; margin:9px 0px}
 .navbar-nav>li>a{padding:12px 11px; color:#fff; font-size:13px; font-weight:normal; text-transform:uppercase}
@@ -968,8 +968,8 @@ body{overflow-x: hidden;}
 }
 
 @media screen and (max-width:767px){.slide-title{margin-top:0; font-size:2.5em}
-.navbar{ min-height: 60px; position: relative;}
-.main-logo{width: 90px; position: absolute; z-index: 999; padding: 5px 10px; margin-left: 3%;}
+
+
 #main-slide .slider-content, #main-slide .slider-content .contentJusti, .slider-text{text-align:left}
 #main-slide .slider-content ul, .slide-title, #main-slide .curveSlider .curveList{width:100%}
 #main-slide .slider-content ul.pull-right li{padding-right:0; text-align:left; background-position:left 5px; padding-left:1.7em}
