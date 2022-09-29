@@ -5208,7 +5208,7 @@ h1, .h1 {font-size : 22px !important;}
     z-index: 1000;
 }
 .navbar{ min-height: 60px; position: relative;}
-.main-logo{width: 90px !important; position: absolute; z-index: 999; padding: 3px 10px !important; margin-left: 3%;}
+.main-logo{width: 90px !important; position: fixed; z-index: 999; padding: 3px 10px !important; margin-left: 3%;}
 }
 @media only screen and (max-width :480px) {
 .col_md_4, .col_md_4 .cntct-dtl-col, .time-box {
