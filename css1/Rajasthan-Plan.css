@@ -7392,6 +7392,7 @@ visibility : hidden !important ;
 }
 .affix {
 position : fixed;
+top: 0;
 }
 .visible-xs, .visible-sm, .visible-md, .visible-lg {
 display : none !important ;
