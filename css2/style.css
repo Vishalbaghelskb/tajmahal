@@ -117,7 +117,7 @@ a:hover, a:focus, a:active{visibility:visible; text-decoration:none}
 .fixed-social-icons a:hover.social-twitter{background-position:-80px -20px}
 .fixed-social-icons a:hover.social-pintrest{background-position:-105px -20px}
 
-.affix{position:fixed;  top:0;  width:100%}
+.affix{position:fixed;  top:114px;  width:100%}
 .navbar{border-radius:0; margin-bottom:0; padding:0; min-height:40px}
 .navbar-bg-color{background: #99EDA0;
     background: -moz-linear-gradient(left, #99EDA0 0%, #24E3FF 50%, #605bfd 100%);
