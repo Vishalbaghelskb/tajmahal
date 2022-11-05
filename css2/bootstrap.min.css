@@ -3609,7 +3609,11 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse {
 	padding-right: 0;
-	padding-left: 0
+	padding-left: 0;
+	background: #fff;
+}
+.about-banner{
+	margin-top: 150px;
 }
 }
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {

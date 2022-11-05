@@ -5188,7 +5188,7 @@ h1, .h1 {font-size : 22px !important;}
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 #header .mobile-menu-toggle {
-    background: #e5e5e6 url(../images/mobile-menu.png) no-repeat scroll center center;
+    background: #e5e5e6 url(images/mobile-menu.png) no-repeat scroll center center;
     bottom: 0;
     display: none;
     height: 34px;
