@@ -3622,7 +3622,8 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 @media (max-device-width:480px) and (orientation:landscape) {
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-	max-height: 200px
+	max-height: 200px;
+	background-color: #fff;
 }
 }
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
@@ -3650,7 +3651,8 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	position: fixed;
 	right: 0;
 	left: 0;
-	z-index: 1030
+	z-index: 1030;
+	background-color: #fff;
 }
 
 @media (min-width:768px) {
@@ -3660,7 +3662,8 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 .navbar-fixed-top {
 	top: 0;
-	border-width: 0 0 1px
+	border-width: 0 0 1px;
+	background-color: #fff;
 }
 .navbar-fixed-bottom {
 	bottom: 0;
