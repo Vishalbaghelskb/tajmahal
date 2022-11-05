@@ -108,7 +108,13 @@ img.size-auto, img.size-large, img.size-full, img.size-medium { max-width:100%; 
 
 
 
-
+.footer-newlinks strong {
+    display: block;
+    font: 19px "Century Gothic";
+    color: #fff600;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4f4f51;
+    letter-spacing: 0.02em;}
 #wrapfooter{overflow:hidden;}
 .footer-bg1{background-color:#252528;}
 ul.footerlinks{margin-top:15px; margin-bottom:15px;}
